@@ -21,7 +21,7 @@ class App extends Component{
       <Router>
         <Header/>
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/Covidtracker">
             <India/>
           </Route>
           <Route  path="/india">

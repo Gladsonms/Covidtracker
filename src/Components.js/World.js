@@ -1,6 +1,6 @@
 import { Component } from "react";
 import  axios from "axios";
-import Datatable from 'react-bs-datatable';
+//import Datatable from 'react-bs-datatable';
 ///import tableHeaders from 'react-bs-datatable';
 ///import { tableBody , tableHeaders } from 'react-bs-datatable';
 
@@ -38,7 +38,7 @@ class World extends Component{
                                 return(
                                     <tr>
                                         <td>{itm.country}
-                                        <img style={ {width:'64px' , marginLeft:'10px'} } src={itm.countryInfo.flag}/>
+                                        <img style={ {width:'64px' , marginLeft:'10px'} } src={itm.countryInfo.flag} alt="countey flag"/>
                                         </td>
                                         <td>{itm.cases}</td>
                                         <td>{itm.recovered}</td>
